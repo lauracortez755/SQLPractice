@@ -1,0 +1,17 @@
+CREATE TABLE tv_shows(
+    id INT,
+    name TEXT,
+    rating INT
+  );
+  
+  INSERT INTO tv_shows (id,name,rating)
+  VALUES (1,'American Horror Story',4);
+
+  INSERT INTO tv_shows (id,name,rating)
+  VALUES (2,'Bones',3);
+
+  INSERT INTO tv_shows (id,name,rating)
+  VALUES (3,'I Love Lucy',5);
+  
+  
+  SELECT * FROM tv_shows
